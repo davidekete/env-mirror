@@ -1,6 +1,7 @@
 Automatically update your `env` example files using the `mirror` CLI.
 
-[Video](https://i.imgur.com/d1UaBbI.mp4)
+https://github.com/davidekete/env-mirror/assets/88355936/c043b84e-3b1c-481f-afbf-87ea798a36d7
+
 
 ## Installation
 
