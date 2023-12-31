@@ -1,6 +1,6 @@
 {
   "name": "env-mirror",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tool that watches your .env file and updates your .env.example file",
   "main": "index.js",
   "scripts": {
