@@ -1,0 +1,26 @@
+{
+  "name": "env-mirror",
+  "version": "1.0.0",
+  "description": "A tool that automatically updates your example files with the variable names in your env file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "mirror": "./bin/index.js"
+  },
+  "keywords": [
+    "env",
+    "env.example",
+    "environmental",
+    "variables",
+    "variables",
+    "node.js"
+  ],
+  "author": "David Ekete",
+  "license": "ISC",
+  "dependencies": {
+    "chokidar": "^3.5.3",
+    "commander": "^11.1.0"
+  }
+}
