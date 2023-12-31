@@ -9,6 +9,10 @@
   "bin": {
     "mirror": "./bin/index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidekete/env-mirror"
+  },
   "keywords": [
     "env",
     "env.example",
