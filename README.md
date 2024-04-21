@@ -1,6 +1,6 @@
 Automatically update your `env` example files using the `mirror` CLI.
 
-https://github.com/davidekete/env-mirror/assets/88355936/c043b84e-3b1c-481f-afbf-87ea798a36d7
+[demo](./assets/env-mirror.gif)
 
 
 ## Installation
@@ -39,3 +39,13 @@ mirror initialize -e ./.env -x ./.env.example
 ```
 
 The command above will watch the `env` file at `./.env` and update the example file at `./.env.example`.
+
+### Create an .env.example file for an existing .env file
+
+You can create a `.env.example` file for an existing `.env` file by running the command below:
+
+```jsx
+mirror clone
+```
+
+The command above checks if your project has an existing `.env.example` file at `<current-dir>/.env.example`. If you have an existing file, it copies the variable names in your `.env` file into your `.env.example` file and starts watching your `.env` file for new changes. If you do not have an existing `.env.example` file, it will create one, copy the `.env` variables, and watch the `.env` file for new changes.
