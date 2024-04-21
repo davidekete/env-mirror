@@ -1,6 +1,6 @@
 Automatically update your `env` example files using the `mirror` CLI.
 
-[demo](./assets/env-mirror.gif)
+![demo](./assets/env-mirror.gif)
 
 
 ## Installation
